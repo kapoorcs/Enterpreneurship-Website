@@ -1,0 +1,164 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .image {
+   height: 404px;
+   position: absolute;
+   top: 299px;
+ }
+ #absolute-wrapper .image.image-1 {
+   width: 709px;
+   left: -190px;
+ }
+ #absolute-wrapper .image.image-2 {
+   width: 710px;
+   left: 499px;
+ }
+ .container-fluid {
+   padding: 0px;
+ }
+ .container-fluid .well.well-1 {
+   border-radius: 0px;
+ }
+ .container-fluid .well.well-2 {
+   margin: 0px;
+ }
+ .container-fluid .well.well-3 {
+   padding: 0px;
+ }
+ .container-fluid .well.well-1.well-2.well-3 .row-fluid .span6 .image {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ .container-fluid .well.well-1.well-2.well-3 .row-fluid .span6 .heading {
+   color: #34495e;
+   margin-top: 50px;
+   font-family:"museo-sans";
+ }
+ .container-fluid .well.well-1.well-2.well-3 .row-fluid .span6 .heading span {
+   color: #d35400;
+ }
+ .container-fluid .well.well-1.well-4 {
+   margin-bottom: 0px;
+   padding: 19px 19px 20px 19px;
+   background: #333333;
+ }
+ .container-fluid .well.well-1.well-4 .navbar {
+   height: 42px;
+ }
+ .container-fluid .well.well-1.well-4 .navbar .navbar-inner {
+   border-radius: 0px;
+   padding: 0px 20px 0px 10px;
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .container-fluid .well.well-1.well-4 .navbar .navbar-inner .responsive-container .nav-collapse.collapse .nav li a {
+   font-family:"spinnaker";
+   font-size: 17px;
+ }
+ .container-fluid .well.well-1.well-4 .navbar .navbar-inner .responsive-container .nav-collapse.collapse .nav li a.a-1 {
+   padding: 10px 15px 10px 70px;
+   margin: 0px 0px 0px 72px;
+ }
+ .container-fluid.container-fluid-1 {
+   margin-top: 400px;
+ }
+ .container-fluid-1 .well .row-fluid .span4 .icon.icon-trophy {
+   margin-top: 30px;
+   font-size: 70px;
+   color: #e67e22;
+   height: 70px;
+   width: 70px;
+ }
+ .container-fluid-1 .well .row-fluid .span4 .heading {
+   font-family:"trebuchet ms";
+   font-size: 17px;
+   text-align: center;
+ }
+ .container-fluid-1 .well .row-fluid .span4 p {
+   text-align: center;
+ }
+ .container-fluid-1 .well .row-fluid .span4 p.p-1 {
+   color: #d35400;
+ }
+ .container-fluid-1 .well .row-fluid .span4 p.p-2 {
+   color: #34495e;
+ }
+ .container-fluid-1 .well .row-fluid .span4 .dom-link {
+   text-align: center;
+   color: #000000;
+   font-weight: bold;
+   font-family:"trebuchet ms";
+ }
+ .container-fluid-1 .well .row-fluid .span4 .icon.icon-cogs {
+   margin-top: 30px;
+   font-size: 70px;
+   color: #34495e;
+   height: 70px;
+   width: 70px;
+ }
+ .container-fluid-1 .well .row-fluid .span4 .icon.icon-dashboard {
+   margin-top: 30px;
+   font-size: 70px;
+   color: #e67e22;
+   height: 70px;
+   width: 70px;
+ }
+ .container-fluid .well.well-1.well-5 {
+   padding: 19px 19px 70px 19px;
+   margin: -20px -20px 0px -20px;
+   background: #34495e;
+ }
+ .container-fluid .well.well-1.well-5 .heading {
+   margin: 50px 0px 50px 0px;
+   font-family:"spinnaker";
+   font-weight: normal;
+   text-align: center;
+   color: #d35400;
+ }
+ .container-fluid .well.well-1.well-5 .heading span {
+   color: #ffffff;
+ }
+ .container-fluid .well.well-1.well-2.well-6 {
+   padding: 100px 19px 0px 19px;
+ }
+ .container-fluid .well.well-1.well-2.well-6 .row-fluid {
+   margin: -10px 0px 0px 0px;
+ }
+ .container-fluid .well.well-1.well-2.well-6 .row-fluid .span5 p {
+   margin: 18px 0px 10px -2px;
+   padding: 0px;
+ }
+ .container-fluid .well.well-1.well-2.well-6 .row-fluid .span3 .icon.icon-facebook {
+   font-size: 40px;
+   margin: -40px 0px 0px 50px;
+   color: #d35400;
+   height: 40px;
+   width: 40px;
+ }
+ .container-fluid .well.well-1.well-2.well-6 .row-fluid .span3 .icon.icon-envelope-alt {
+   font-size: 40px;
+   margin: -40px 0px 0px 80px;
+   color: #34495e;
+   height: 40px;
+   width: 40px;
+ }
+ .container-fluid .well.well-1.well-2.well-6 .row-fluid .span3 .icon.icon-twitter {
+   font-size: 40px;
+   margin: -40px 0px 0px -110px;
+   height: 40px;
+   width: 40px;
+ }
