@@ -1,0 +1,195 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .image {
+   height: 341px;
+   position: absolute;
+   top: 317px;
+ }
+ #absolute-wrapper .image.image-1 {
+   width: 660px;
+   left: -77px;
+ }
+ #absolute-wrapper .image.image-2 {
+   width: 690px;
+   left: 583px;
+ }
+ #absolute-wrapper .dom-heading {
+   font-family:"Arial";
+   width: 300px;
+   height: 42px;
+   position: absolute;
+   top: 1252px;
+   left: 542px;
+ }
+ #absolute-wrapper .icon.icon-facebook {
+   position: absolute;
+   top: 1674px;
+   left: -72px;
+ }
+ .container-fluid .well {
+   border-radius: 0px;
+ }
+ .container-fluid .well.well-1 {
+   background: #ffffff;
+ }
+ .container-fluid .well.well-2 {
+   background: #34495e;
+ }
+ .container-fluid .well.well-3 {
+   padding: 19px 19px 50px 19px;
+ }
+ .container-fluid .well.well-4 {
+   margin: 0px -20px 20px -20px;
+ }
+ .container-fluid .well.well-1.well-4 .row-fluid .span5 {
+   padding: 0px 0px 0px 70px;
+ }
+ .container-fluid .well.well-1.well-4 .row-fluid .span6 .heading {
+   color: #34495e;
+   padding: 25px 0px 0px 0px;
+ }
+ .container-fluid .well.well-1.well-4 .row-fluid .span6 .heading span {
+   color: #d35400;
+ }
+ .container-fluid .well.well-2.well-5 {
+   padding: 19px 19px 20px 19px;
+   margin: -20px -22px 0px -22px;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 {
+   padding: 0px 30px 0px 30px;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar {
+   margin: 0px;
+   height: 35px;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner {
+   padding: 0px 20px 0px 10px;
+   height: 35px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner .nav li a {
+   font-family:"georgia";
+   font-weight: bold;
+   font-size: 17px;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner .nav li a.a-1 {
+   color: #d35400;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner .nav li a.a-2 {
+   color: #000000;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner .nav li a.a-3 {
+   color: #8e44ad;
+ }
+ .container-fluid .well.well-2.well-5 .row-fluid .span12 .navbar .navbar-inner .nav li a.a-4 {
+   margin: 0px 0px 0px 72px;
+ }
+ .container-fluid.container-fluid-1 {
+   margin-top: 380px;
+ }
+ .container-fluid-1 .well.well-3 {
+   margin: 0px -22px 0px -22px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .icon.icon-trophy {
+   margin: 20px 0px 0px 0px;
+   font-size: 75px;
+   color: #d35400;
+   height: 75px;
+   width: 205px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .icon.icon-cogs {
+   font-size: 76px;
+   margin-top: 20px;
+   color: #34495e;
+   height: 76px;
+   width: 172px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .icon.icon-dashboard {
+   font-size: 83px;
+   margin: 10px 0px 0px 0px;
+   color: #d35400;
+   height: 83px;
+   width: 188px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-1 {
+   font-size: 17px;
+   font-family:"trebuchet ms";
+   font-weight: bold;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-2 {
+   padding: 0px 0px 0px 10px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-3 {
+   color: #d35400;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-4 {
+   font-size: 15px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-5 {
+   color: #34495e;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-6 {
+   padding: 0px 0px 0px 240px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 p.p-7 {
+   padding: 0px 0px 0px 30px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .p-1.p-8 {
+   padding: 0px 0px 0px 120px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .p-1.p-9 {
+   padding: 0px 0px 0px 60px;
+   margin: 0px 0px 10px 200px;
+ }
+ .container-fluid-1 .well.well-3 .row-fluid .span4 .dom-link {
+   color: #000000;
+ }
+ .container-fluid .well.well-1.well-3 {
+   margin: 0px -22px 20px -22px;
+ }
+ .container-fluid .well.well-1.well-3 .row-fluid .span12 .icon.icon-envelope-alt {
+   font-size: 52px;
+   height: 52px;
+   width: 132px;
+ }
+ .container-fluid .well.well-1.well-3 .row-fluid .span12 .icon.icon-twitter {
+   margin: 1px 0px 0px 40px;
+   font-size: 52px;
+   height: 52px;
+   width: 53px;
+ }
+ .container-fluid .well.well-1.well-3 .row-fluid .span12 .icon.icon-facebook {
+   font-size: 53px;
+   margin: 0px;
+   height: 53px;
+   width: 67px;
+ }
+ .container-fluid .well.well-2.well-6 {
+   padding: 50px 19px 130px 19px;
+   margin: -20px -22px 20px -22px;
+ }
+ .container-fluid .well.well-2.well-6 .row-fluid .span12 .heading {
+   padding: 0px 0px 0px 400px;
+   color: #e67e22;
+ }
+ .container-fluid.container-fluid-2 {
+   margin-top: -20px;
+ }
